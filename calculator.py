@@ -6,13 +6,13 @@ print("4.divide")
 n=input("enter ur choice:")
 a=float(input("enter 1st number:"))
 b=float(input("enter 2nd number:"))
-if n==1:
+if n=="1":
     print("addition=",(a+b))
-elif n==2:
+elif n=="2":
     print("subtraction=",(a-b))
-elif n==3:
+elif n=="3":
     print("multiplication=",(a*b))
-elif n==4:
+elif n=="4":
     if b!=0:
         print("division=",(a/b))
     else:
